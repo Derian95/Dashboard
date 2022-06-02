@@ -30,7 +30,7 @@
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .cardContainer {
         grid-template-columns: 1fr ;
     }
