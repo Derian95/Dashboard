@@ -33,6 +33,8 @@
 @media (max-width: 800px) {
     .cardContainer {
         grid-template-columns: 1fr ;
+    }.containerProgress {
+        grid-template-columns: 1fr ;
     }
   
 }
