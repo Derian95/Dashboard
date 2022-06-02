@@ -1,0 +1,16 @@
+.buttonDark{
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(31, 31, 31);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.buttonLight{
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+}

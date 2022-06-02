@@ -1,0 +1,20 @@
+.container{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+
+}
+.data{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.number{
+font-size: 5rem;
+}

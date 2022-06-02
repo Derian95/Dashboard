@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    border: solid 1px #0e121d;
+    border-radius: 10px;
+    background-color: #222b45;
+    
+}
+.containerDark{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    border: solid 1px #c1c1c2;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.picture{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    border: solid 1px #0e121d;
+    margin-bottom: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

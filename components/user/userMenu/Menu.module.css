@@ -1,0 +1,34 @@
+.menu{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 54px;
+}
+
+.menu button{
+    width: 100%;
+    height: 50%;
+    border: none;
+    cursor: pointer;
+}
+.menu button:hover{
+    color:#5687f7;
+
+}
+.menuDark{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 55px;
+}
+.menuDark button{
+    width: 100%;
+    height: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #222b45;
+    color: white;
+}
+.menuDark button:hover{
+    color:#5687f7;
+}

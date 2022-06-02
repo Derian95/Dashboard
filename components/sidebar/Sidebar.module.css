@@ -1,0 +1,121 @@
+.container {
+  width: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+}
+.nav {
+  color: white;
+  list-style: none;
+  height: 90vh;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: #222b45;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0.5rem 1rem 0 rgb(44 51 73 / 10%);
+  z-index: 0;
+  
+}
+.ligth {
+  background-color: #edf1f7;
+  color: black;
+}
+.dark {
+  background-color: #222b45;
+  color: white;
+}
+
+.links {
+  width: 100%;
+}
+.textDark {
+  text-decoration: none;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+.textDark:hover {
+  cursor: pointer;
+  color: #5687f7;
+}
+.textDark::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #151a30;
+}
+.text {
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    
+  }
+  .text:hover {
+    cursor: pointer;
+    color: #5687f7;
+  }
+  .text::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #dadee4;
+  }
+  
+
+.footer {
+  color: white;
+  background-color: #4456a7;
+  width: 100%;
+}
+.button{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+
+}
+.buttonText{
+  margin-left: 10px;
+}
+.smallContainer{
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+}
+.smallNav{
+  list-style: none;
+  height: 90vh;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0.5rem 1rem 0 rgb(44 51 73 / 10%);
+  z-index: 0;
+}
+.smallButtonText{
+  display: none;
+}
+@media (max-width: 602px) {
+    .nav {
+        width: 50px;
+    }
+    .container{
+      width: 50px;
+    }
+    .buttonText{
+      display: none;
+    }
+}

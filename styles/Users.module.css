@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    width: 90%;
+    gap: 10px;
+}

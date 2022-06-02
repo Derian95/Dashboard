@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    position: relative;
+    
+}
+.photo{
+    background-color: rgb(12, 12, 12);
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.name{
+    cursor: pointer;
+}
